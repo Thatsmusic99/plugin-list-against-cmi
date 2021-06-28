@@ -1,4 +1,4 @@
-# List of plugins to replace CMI
+# List of plugins/datapacks to replace CMI
 CMI is a [monoplugin](https://madelinemiller.dev/blog/large-plugins-vs-small-plugins/) which aims to replace a vast number of plugins in your server by implementing a large amount of features. However, there is a large divide within the Minecraft plugin community about whether it actually does good or not, with it often being subject to criticism by experienced server admins and developers. 
 
 As someone who has been requested to configure the plugin before, it is a hefty nightmare to deal with and I have wondered if there were better alternatives, so I made this list. In addition, this advertises smaller plugins that don't have the same attention larger plugins such as Essentials do. Hell, use this as plugin inspiration for all I care. The list also includes how to produce behaviour in said plugins to make it similar to CMI's, although perhaps not entirely.
@@ -10,7 +10,9 @@ If you have a plugin or question on what would be best to replace CMI for a spec
 (WIP)
 
 ## Economy
-Essentials (EssentialsX team) - 
+> Like CMI, most economy plugins require the Vault API to work.   
+
+[Essentials](https://essentialsx.net/downloads.html) (EssentialsX team) *1.8-1.16.5*  
 
 ## Playtime logging/information
 OnTime  
@@ -21,21 +23,36 @@ OnTime
 CHRONOS (unfinished)
 
 ## Sleeping
-BetterSleeping  
-Harbor
+[BetterSleeping](https://www.spigotmc.org/resources/bettersleeping.60837/) (vallas) *1.13-1.16*  
+[Harbor](https://www.spigotmc.org/resources/harbor-a-sleep-enhancement-plugin.60088/) (TechToolbox) *1.14-1.17*  
+[Sleep-most](https://www.spigotmc.org/resources/sleep-most-1-8-1-17-the-most-advanced-sleep-plugin-available.60623/) (MrGeneralQ) *1.8-1.17*  
+[One Player Sleep](https://www.spigotmc.org/resources/one-player-sleep.31585/) (CasperSwagerman) *1.8-1.17*
 
 ## Compass
+[LiveCompass](https://www.spigotmc.org/resources/livecompass-1-8-x-1-12-x.47138/) (Praya) *1.8-1.12*   
+[SimpleCompass](https://www.spigotmc.org/resources/simplecompass.63140/) (arboriginal) *1.13-1.15*  
+[Caleb Compass](https://www.spigotmc.org/resources/caleb-compass.82674/) (Caleb_Britannia) *1.13-1.16*   
+[SimpleCompassBossbar](https://www.spigotmc.org/resources/simplecompassbossbar.70121/) (Warak) *1.14*  
+[Live Compass Premium](https://www.spigotmc.org/resources/live-compass-premium-1-9-x-1-13-x.50668/) (Praya) **PREMIUM** 5 EUR *1.9-1.13* 
 
 ## ExploitPatcher
-Maybe just report it to paper? they're pretty good with exploit patching
+Maybe just report it to paper? They're pretty good with exploit patching. Why lock exploit patches behind a paywall? Wtf?
 
 ## Homes
-EssentialsX  
-AdvancedTeleport  
-VanillaTweaks  
+[Essentials](https://essentialsx.net/downloads.html) (EssentialsX team) *1.8-1.16.5* - To add a GUI, see [HomeGUI](https://www.spigotmc.org/resources/homegui-1-8-1-16.77852/) by TechnoVision *1.8-1.16.5*  
+[AdvancedTeleport](https://www.spigotmc.org/resources/advancedteleport.64139/) (Niestrat99 and Thatsmusic99) *1.8-1.17*    
+[VanillaTweaks](https://vanillatweaks.net/picker/datapacks/) *Datapack* - Can be found in the Teleportation section.    
+[GWarp](https://www.spigotmc.org/resources/gwarp-warp-home-plugin-1-7-x-1-17-x.56824/) (Gecolay) *1.7-1.17*  
+[WarpsGUI](https://www.spigotmc.org/resources/%E2%9C%A8-warpsgui-%C2%AB1-8-1-14-%C2%BB-%E2%9C%A8-homes-and-warps-in-gui-%E2%9C%85.22484/) (MrHardyCZ) *1.8-1.14*  
+[UltimateHomes](https://www.spigotmc.org/resources/%E3%80%90ultimatehomes%E3%80%91-highly-configurable-player-sethome-system-1-8-1-17-x.64210/) (kixmc) *1.8-1.17*  
+[HomePlus](https://www.spigotmc.org/resources/homeplus-1-9-1-16-2-%E2%96%B8set-your-home-highly-configurable-%E2%97%8F-pre-relase.74643/) (Cozza_03) *1.9-1.16.5*  
+[EasyHomes](https://www.spigotmc.org/resources/easyhomes-skript-100-free-multiple-homes-custom-messages-gui-multiworld-support-more.76699/) (GreenGamer42) **SKRIPT** *1.7-1.16*  
+[HuskHomes](https://www.spigotmc.org/resources/%E2%AD%90-huskhomes-1-17-%E2%AD%90-simple-intuitive-teleportation-suite-with-cross-server-support.83767/) (William27528) *1.16-1.17*  
+[PerWorldHomes](https://www.spigotmc.org/resources/%E2%9C%A6-perworldhomes-1-8-1-16-1-%E2%9E%A2-unique-features-%E2%9C%A6.74378/) (Kechu) *1.8-1.16*  
+[QuickHomes](https://www.spigotmc.org/resources/1-14-quickhome.70131/) (Dreregon) *1.14-1.16*  
 
 ## Respawn Management
-Essentials  
+[Essentials](https://essentialsx.net/downloads.html) (EssentialsX team) *1.8-1.16.5*  
 AdvancedTeleport
 
 ## AFK Protection
@@ -151,6 +168,11 @@ Essentials
 ## Title bar/Action bar messages
 
 ## Totem Control
+[TotemsPlus](https://www.spigotmc.org/resources/totemsplus.60828/) (FlailoftheLord) *1.13-1.14*  
+[NoTotemHand](https://www.spigotmc.org/resources/nototemhand.81271/) (GFelberg) *1.11-1.16.5*  
+[TotemVoid](https://www.spigotmc.org/resources/totemvoid.82412/) (Sigong) *1.13-1.16.5*  
+[SuperTotems](https://www.spigotmc.org/resources/supertotems.89874/) (xXJetstreamXx) *1.16.5*  
+[PeTotem](https://www.spigotmc.org/resources/petotem.90814/) (Tretels) *1.16.5*
 
 ## Kits
 Essentials
