@@ -1,7 +1,7 @@
 # List of plugins to replace CMI
 CMI is a [monoplugin](https://madelinemiller.dev/blog/large-plugins-vs-small-plugins/) which aims to replace a vast number of plugins in your server by implementing a large amount of features. However, there is a large divide within the Minecraft plugin community about whether it actually does good or not, with it often being subject to criticism by experienced server admins and developers. 
 
-As someone who has been requested to configure the plugin before, it is a hefty nightmare to deal with and I have wondered if there were better alternatives and in addition, advertise smaller plugins that don't have the same attention larger plugins such as Essentials do. Hell, use this as plugin inspiration for all I care. The list also includes how to produce behaviour in said plugins to make it similar to CMI's, although perhaps not entirely.
+As someone who has been requested to configure the plugin before, it is a hefty nightmare to deal with and I have wondered if there were better alternatives, so I made this list. In addition, this advertises smaller plugins that don't have the same attention larger plugins such as Essentials do. Hell, use this as plugin inspiration for all I care. The list also includes how to produce behaviour in said plugins to make it similar to CMI's, although perhaps not entirely.
 
 Obviously, the go-to replacement for CMI is, in fact, Essentials. However, if there isn't the case, there are plenty of other alternatives outlined below.
 
