@@ -23,6 +23,7 @@ OnTime
 CHRONOS (unfinished)
 
 ## Sleeping
+In 1.17, just do `/gamerule playersSleepingPercentage 100`, where 100 is the % of players required to sleep (out of 100, of course)  
 [BetterSleeping](https://www.spigotmc.org/resources/bettersleeping.60837/) (vallas) *1.13-1.16*  
 [Harbor](https://www.spigotmc.org/resources/harbor-a-sleep-enhancement-plugin.60088/) (TechToolbox) *1.14-1.17*  
 [Sleep-most](https://www.spigotmc.org/resources/sleep-most-1-8-1-17-the-most-advanced-sleep-plugin-available.60623/) (MrGeneralQ) *1.8-1.17*  
