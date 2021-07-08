@@ -1,11 +1,13 @@
 # List of plugins/datapacks to replace CMI
-CMI is a [monoplugin](https://madelinemiller.dev/blog/large-plugins-vs-small-plugins/) which aims to replace a vast number of plugins in your server by implementing a large amount of features. However, there is a large divide within the Minecraft plugin community about whether it actually does good or not, with it often being subject to criticism by experienced server admins and developers. 
+CMI is a [monoplugin](https://madelinemiller.dev/blog/large-plugins-vs-small-plugins/) which aims to replace a vast number of plugins in your server by implementing a large amount of features. However, there is a large divide within the Minecraft plugin community about whether it actually does good or not, with it often being subject to criticism by experienced server admins and developers. To phrase the problem at hand, the plugin tries to "throw too many eggs into one basket".
 
 As someone who has been requested to configure the plugin before, it is a hefty nightmare to deal with and I have wondered if there were better alternatives, so I made this list. In addition, this advertises smaller plugins that don't have the same attention larger plugins such as Essentials do. Hell, use this as plugin inspiration for all I care. The list also includes how to produce behaviour in said plugins to make it similar to CMI's, although perhaps not entirely.
 
-Obviously, the go-to replacement for CMI is, in fact, Essentials. However, if there isn't the case, there are plenty of other alternatives outlined below.
+Obviously, the go-to replacement for CMI is, in fact, Essentials. However, if that isn't the case, there are plenty of other alternatives outlined below.
 
 If you have a plugin or question on what would be best to replace CMI for a specific feature, feel free to open an issue.
+
+Also soft reminder that paid != good, which goes for all premium plugins, not just CMI.
 
 (WIP)
 
@@ -127,7 +129,12 @@ Does anyone use this?
 ## Custom Recipes
 
 ## Maintenance mode
-/whitelist on
+Vanilla - /whitelist on  
+[Maintenance](https://www.spigotmc.org/resources/maintenance-bungee-and-spigot-support-1-8-1-17.40699/) (KennyTV) *1.8-1.17*  
+[InWartung](https://www.spigotmc.org/resources/inwartung-%C2%BB-wartungsplugin-1-8-1-14.17653/) (xMauric3x) *1.8-1.14* - where my german fellas at?  
+[JoinEventsPro](https://www.spigotmc.org/resources/joineventspro-1-8-1-16-first-join-management-maintenance-mode-join-items-more.22105/) (Cervinakuy) *1.8-1.16*  
+[BungeeSystem](https://www.spigotmc.org/resources/bungeesystem-fully-configurable-ban-mute-kick-motd-maintenance-mode-onlinetime-etc.76546/) *1.7-1.16*  
+[Maintence Plugin](https://www.spigotmc.org/resources/maintenance-plugin.74910/) (GoodyFX) *1.15-1.16*
 
 ## Unlock books to re-edit
 
