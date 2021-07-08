@@ -3,7 +3,7 @@ CMI is a [monoplugin](https://madelinemiller.dev/blog/large-plugins-vs-small-plu
 
 As someone who has been requested to configure the plugin before, it is a hefty nightmare to deal with and I have wondered if there were better alternatives, so I made this list. In addition, this advertises smaller plugins that don't have the same attention larger plugins such as Essentials do. Hell, use this as plugin inspiration for all I care. The list also includes how to produce behaviour in said plugins to make it similar to CMI's, although perhaps not entirely.
 
-Obviously, the go-to replacement for CMI is, in fact, Essentials. However, if that isn't the case, there are plenty of other alternatives outlined below.
+Obviously, the go-to replacement for CMI is, in fact, EssentialsX. However, if that isn't the case, there are plenty of other alternatives outlined below.
 
 If you have a plugin or question on what would be best to replace CMI for a specific feature, feel free to open an issue.
 
@@ -14,7 +14,7 @@ Also soft reminder that paid != good, which goes for all premium plugins, not ju
 ## Economy
 > Like CMI, most economy plugins require the Vault API to work.   
 
-[Essentials](https://essentialsx.net/downloads.html) (EssentialsX team) *1.8-1.16.5*  
+[EssentialsX](https://essentialsx.net/) (EssentialsX team) *1.8-1.16.5*  
 
 ## Playtime logging/information
 OnTime  
@@ -42,7 +42,7 @@ In 1.17, just do `/gamerule playersSleepingPercentage 100`, where 100 is the % o
 Maybe just report it to paper? They're pretty good with exploit patching. Why lock exploit patches behind a paywall? Wtf?
 
 ## Homes
-[Essentials](https://essentialsx.net/downloads.html) (EssentialsX team) *1.8-1.16.5* - To add a GUI, see [HomeGUI](https://www.spigotmc.org/resources/homegui-1-8-1-16.77852/) by TechnoVision *1.8-1.16.5*  
+[EssentialsX](https://essentialsx.net/) - To add a GUI, see [HomeGUI](https://www.spigotmc.org/resources/homegui-1-8-1-16.77852/) by TechnoVision *1.8-1.16.5*  
 [AdvancedTeleport](https://www.spigotmc.org/resources/advancedteleport.64139/) (Niestrat99 and Thatsmusic99) *1.8-1.17*    
 [VanillaTweaks](https://vanillatweaks.net/picker/datapacks/) *Datapack* - Can be found in the Teleportation section.    
 [GWarp](https://www.spigotmc.org/resources/gwarp-warp-home-plugin-1-7-x-1-17-x.56824/) (Gecolay) *1.7-1.17*  
@@ -55,15 +55,15 @@ Maybe just report it to paper? They're pretty good with exploit patching. Why lo
 [QuickHomes](https://www.spigotmc.org/resources/1-14-quickhome.70131/) (Dreregon) *1.14-1.16*  
 
 ## Respawn Management
-[Essentials](https://essentialsx.net/downloads.html) (EssentialsX team) *1.8-1.16.5*  
-AdvancedTeleport
+[EssentialsX](https://essentialsx.net/)  
+[AdvancedTeleport](https://www.spigotmc.org/resources/advancedteleport.64139/)
 
 ## AFK Protection
 OnTime  
 CHRONOS (unfinished)
 
 ## Holograms
-HolographicDisplays
+[HolographicDisplays](https://dev.bukkit.org/projects/holographic-displays)
 
 ## Votifier
 CHRONOS (unfinished)
@@ -71,20 +71,19 @@ CHRONOS (unfinished)
 ## Signs
 
 ## Skins
-SkinRestorer  
 Online mode
+SkinRestorer
 
 ## Alerts
 
 ## GroundClean
-ClearLag  
-You don't really need this, to be honest. Minecraft already clears ground items after a specific number have been dropped.
+No need. Configure alt-item-despawn-rate in paper.yml or item-dospawn-rate in spigot.yml
 
 ## Chat Management
-Essentials
+[EssentialsX](https://essentialsx.net/)
 
 ## Nicknames
-Essentials
+[EssentialsX](https://essentialsx.net/)
 
 ## Portals
 
@@ -96,14 +95,15 @@ CHRONOS (unfinished)
 ## Custom boss bars
 
 ## Commands on items
-Essentials
+[EssentialsX](https://essentialsx.net/)
 
 ## Tablist
-TAB
+[TAB](https://www.spigotmc.org/resources/tab-1-5-x-1-17-free-version.57806/)
 
 ## Flight
 
 ## Command/alias editor
+[commands.yml](https://bukkit.fandom.com/wiki/Commands.yml)
 
 ## Player Statistics Display
 
@@ -112,6 +112,8 @@ TAB
 ## Clickable blocks/entities
 
 ## Mob Spawn Limiting
+bukkit.yml (spawn-limits section)
+paper.yml (spawn-limits section)
 
 ## Enchantment Disabling
 
@@ -121,12 +123,17 @@ Does anyone use this?
 ## Painting Selection
 
 ## Chunk repair
+If you have broken chunks for any reason you have bigger problems than that.
 
 ## Block Replacement
+[WorldEdit](https://dev.bukkit.org/projects/worldedit)
 
 ## Launchpad
 
 ## Custom Recipes
+[Datapacks](https://datapackcenter.com/projects/custom-crafting-tutorial.70/)  
+[CustomCrafting](https://www.spigotmc.org/resources/customcrafting-advanced-custom-recipe-plugin-1-14-1-17-free.55883/)
+
 
 ## Maintenance mode
 Vanilla - /whitelist on  
@@ -139,37 +146,44 @@ Vanilla - /whitelist on
 ## Unlock books to re-edit
 
 ## Chairs
-CraftBook  
-BetterChairs
+[CraftBook](https://www.spigotmc.org/resources/craftbook.2083/)  
+[BetterChairs](https://www.spigotmc.org/resources/betterchairs-remastered.84809/)  
+[GSit](https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-13-x-1-17-x.62325/)
 
 ## Backpacks
 
 ## Server MOTD
 You can simply use your server.properties file to achieve this.  
-ServerListPlus
+[ServerListPlus](https://www.spigotmc.org/resources/serverlistplus.241/)  
+[PistonMOTD](https://www.spigotmc.org/resources/pistonmotd-rgb-and-1-17-support.80567/)
 
 ## Elytra cost/control
+[Purpur](https://purpur.pl3x.net/)
 
 ## Droppable Spawners
+[SilkSpawners](https://www.spigotmc.org/resources/silkspawners-%E2%98%85-ready-to-rock-1-8-1-17-supported-%E2%98%85.7811/)  
+[Purpur](https://purpur.pl3x.net/)
 
 ## Social/Command Spy
 
 ## Vanishing
-EssentialsX  
-VanishNoPacket
+[VanishNoPacket](https://dev.bukkit.org/projects/vanish)  
+[SuperVanish](https://www.spigotmc.org/resources/supervanish-be-invisible.1331/)
 
 ## Previously Changed Names
 
 ## Geographical Information
-Essentials
+[EssentialsX](https://essentialsx.net/)
 
 ## Editing Inventories (Online/Offline)
+[OpenInv](https://dev.bukkit.org/projects/openinv)
 
 ## Elevators
 
 ## Server Status Checking
 
 ## Editing Signs
+[Purpur](https://purpur.pl3x.net/)
 
 ## Offline Player Data Modification
 
@@ -183,14 +197,14 @@ Essentials
 [PeTotem](https://www.spigotmc.org/resources/petotem.90814/) (Tretels) *1.16.5*
 
 ## Kits
-Essentials
+[EssentialsX](https://essentialsx.net/)
 
 ## Warps
-Essentials  
+[EssentialsX](https://essentialsx.net/)  
 AdvancedTeleport
 
 ## Jailing (or "cuffing")
-EssentialsX
+[EssentialsX](https://essentialsx.net/)
 
 ## Moderation (Muting, Kicking, Banning)
 
