@@ -199,6 +199,7 @@ EssentialsX
 ## Command Costs
 
 ## Head Drops
+![image](https://user-images.githubusercontent.com/25277367/125158749-09f91080-e16b-11eb-9428-f6884f873385.png)  
 [HeadsPlus](https://www.spigotmc.org/resources/40265) (Thatsmusic99) *1.8-1.17*  
 [HeadDrops](https://www.spigotmc.org/resources/headdrops-1-8-1-16.15964/) (EvanTheSurfer) *1.8-1.16.5*  
 [Ultimate Mob Heads](https://www.spigotmc.org/resources/ultimate-mob-heads-fork.70019/) (zombie_striker and CyberDrain) *1.13-1.15*  
